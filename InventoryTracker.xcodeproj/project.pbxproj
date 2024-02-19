@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5A17B22B839A45005EB091 /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FEB2B821F1000891FEA /* InventoryListVM.swift */; };
+		4D5A17BB2B83A146005EB091 /* NavigationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A17B42B839E60005EB091 /* NavigationVM.swift */; };
+		4D846D282B83A2A500F735F6 /* InventoryItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A17B92B839E96005EB091 /* InventoryItemVM.swift */; };
+		4D846D292B83A2A500F735F6 /* InventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A17B72B839E8C005EB091 /* InventoryItemView.swift */; };
+		4D846D2B2B83A44F00F735F6 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D846D2A2B83A44F00F735F6 /* URL+Ext.swift */; };
+		4D846D2C2B83A44F00F735F6 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D846D2A2B83A44F00F735F6 /* URL+Ext.swift */; };
+		4D846D2E2B83A51100F735F6 /* USDZItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D846D2D2B83A51100F735F6 /* USDZItemProvider.swift */; };
+		4D846D2F2B83A51100F735F6 /* USDZItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D846D2D2B83A51100F735F6 /* USDZItemProvider.swift */; };
+		4DB311EF2B820FA80015B241 /* InventoryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB311EE2B820FA80015B241 /* InventoryTrackerApp.swift */; };
+		4DB311F32B820FAA0015B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB311F22B820FAA0015B241 /* Assets.xcassets */; };
+		4DB311F62B820FAA0015B241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB311F52B820FAA0015B241 /* Preview Assets.xcassets */; };
+		4DB312052B8210220015B241 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB312042B8210220015B241 /* RealityKitContent */; };
+		4DB312072B8210220015B241 /* InventoryTrackerVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB312062B8210220015B241 /* InventoryTrackerVisionApp.swift */; };
+		4DB3120B2B8210290015B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3120A2B8210290015B241 /* Assets.xcassets */; };
+		4DB3120E2B8210290015B241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3120D2B8210290015B241 /* Preview Assets.xcassets */; };
+		4DB312162B8211080015B241 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB312152B8211080015B241 /* FirebaseFirestore */; };
+		4DB312182B8211120015B241 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB312172B8211120015B241 /* FirebaseFirestoreSwift */; };
+		4DB3121A2B8211170015B241 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB312192B8211160015B241 /* FirebaseStorage */; };
+		4DB3121C2B8211290015B241 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB3121B2B8211290015B241 /* FirebaseFirestore */; };
+		4DB3121E2B8211290015B241 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB3121D2B8211290015B241 /* FirebaseFirestoreSwift */; };
+		4DB312202B82112E0015B241 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB3121F2B82112E0015B241 /* FirebaseStorage */; };
+		4DB312222B8214720015B241 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB312212B8214720015B241 /* GoogleService-Info.plist */; };
+		4DB312242B82147C0015B241 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB312232B82147C0015B241 /* GoogleService-Info.plist */; };
+		4DCF87B92B83614F003FA180 /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF87B82B83614F003FA180 /* InventoryListView.swift */; };
+		4DD21FE42B821C8900891FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FE32B821C8900891FEA /* AppDelegate.swift */; };
+		4DD21FE52B821C9400891FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FE32B821C8900891FEA /* AppDelegate.swift */; };
+		4DD21FE82B821E2D00891FEA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FE72B821E2D00891FEA /* InventoryItem.swift */; };
+		4DD21FE92B821E3100891FEA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FE72B821E2D00891FEA /* InventoryItem.swift */; };
+		4DD21FEC2B821F1000891FEA /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FEB2B821F1000891FEA /* InventoryListVM.swift */; };
+		4DD21FEF2B821FF500891FEA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FEE2B821FF500891FEA /* String+Ext.swift */; };
+		4DD21FF32B82203B00891FEA /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FEE2B821FF500891FEA /* String+Ext.swift */; };
+		4DD21FF52B82204300891FEA /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FF42B82204300891FEA /* InventoryListView.swift */; };
+		4DD21FF72B82296100891FEA /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FF62B82296100891FEA /* InventoryFormView.swift */; };
+		4DD21FFA2B8229A100891FEA /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD21FF92B8229A100891FEA /* InventoryFormVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D5A17B42B839E60005EB091 /* NavigationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVM.swift; sourceTree = "<group>"; };
+		4D5A17B72B839E8C005EB091 /* InventoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemView.swift; sourceTree = "<group>"; };
+		4D5A17B92B839E96005EB091 /* InventoryItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemVM.swift; sourceTree = "<group>"; };
+		4D846D2A2B83A44F00F735F6 /* URL+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Ext.swift"; sourceTree = "<group>"; };
+		4D846D2D2B83A51100F735F6 /* USDZItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZItemProvider.swift; sourceTree = "<group>"; };
+		4DB311EB2B820FA80015B241 /* InventoryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB311EE2B820FA80015B241 /* InventoryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTrackerApp.swift; sourceTree = "<group>"; };
+		4DB311F22B820FAA0015B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB311F52B820FAA0015B241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DB312002B8210210015B241 /* InventoryTrackerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryTrackerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB312032B8210220015B241 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		4DB312062B8210220015B241 /* InventoryTrackerVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTrackerVisionApp.swift; sourceTree = "<group>"; };
+		4DB3120A2B8210290015B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB3120D2B8210290015B241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DB3120F2B8210290015B241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB312212B8214720015B241 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DB312232B82147C0015B241 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DCF87B82B83614F003FA180 /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		4DD21FE12B821C4000891FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DD21FE32B821C8900891FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD21FE72B821E2D00891FEA /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		4DD21FEB2B821F1000891FEA /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		4DD21FEE2B821FF500891FEA /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		4DD21FF42B82204300891FEA /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		4DD21FF62B82296100891FEA /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		4DD21FF92B8229A100891FEA /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB311E82B820FA80015B241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB312162B8211080015B241 /* FirebaseFirestore in Frameworks */,
+				4DB312182B8211120015B241 /* FirebaseFirestoreSwift in Frameworks */,
+				4DB3121A2B8211170015B241 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB311FD2B8210210015B241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB312052B8210220015B241 /* RealityKitContent in Frameworks */,
+				4DB312202B82112E0015B241 /* FirebaseStorage in Frameworks */,
+				4DB3121C2B8211290015B241 /* FirebaseFirestore in Frameworks */,
+				4DB3121E2B8211290015B241 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5A17B32B839E55005EB091 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4D5A17B42B839E60005EB091 /* NavigationVM.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4D5A17B62B839E83005EB091 /* InventoryItem */ = {
+			isa = PBXGroup;
+			children = (
+				4D5A17B72B839E8C005EB091 /* InventoryItemView.swift */,
+				4D5A17B92B839E96005EB091 /* InventoryItemVM.swift */,
+			);
+			path = InventoryItem;
+			sourceTree = "<group>";
+		};
+		4DB311E22B820FA80015B241 = {
+			isa = PBXGroup;
+			children = (
+				4DD21FE22B821C7400891FEA /* Shared */,
+				4DB311ED2B820FA80015B241 /* InventoryTracker */,
+				4DB312012B8210220015B241 /* InventoryTrackerVision */,
+				4DB312022B8210220015B241 /* Packages */,
+				4DB311EC2B820FA80015B241 /* Products */,
+				4DB312142B8211080015B241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB311EC2B820FA80015B241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB311EB2B820FA80015B241 /* InventoryTracker.app */,
+				4DB312002B8210210015B241 /* InventoryTrackerVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB311ED2B820FA80015B241 /* InventoryTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FF82B82298D00891FEA /* InventoryForm */,
+				4DD21FF02B82202C00891FEA /* InventoryList */,
+				4DD21FE12B821C4000891FEA /* Info.plist */,
+				4DB312212B8214720015B241 /* GoogleService-Info.plist */,
+				4DB311EE2B820FA80015B241 /* InventoryTrackerApp.swift */,
+				4DB311F22B820FAA0015B241 /* Assets.xcassets */,
+				4DB311F42B820FAA0015B241 /* Preview Content */,
+			);
+			path = InventoryTracker;
+			sourceTree = "<group>";
+		};
+		4DB311F42B820FAA0015B241 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DB311F52B820FAA0015B241 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DB312012B8210220015B241 /* InventoryTrackerVision */ = {
+			isa = PBXGroup;
+			children = (
+				4D5A17B62B839E83005EB091 /* InventoryItem */,
+				4D5A17B32B839E55005EB091 /* Navigation */,
+				4DB312062B8210220015B241 /* InventoryTrackerVisionApp.swift */,
+				4DCF87B72B836143003FA180 /* InventoryList */,
+				4DB312232B82147C0015B241 /* GoogleService-Info.plist */,
+				4DB3120F2B8210290015B241 /* Info.plist */,
+				4DB3120A2B8210290015B241 /* Assets.xcassets */,
+				4DB3120C2B8210290015B241 /* Preview Content */,
+				4D846D2D2B83A51100F735F6 /* USDZItemProvider.swift */,
+			);
+			path = InventoryTrackerVision;
+			sourceTree = "<group>";
+		};
+		4DB312022B8210220015B241 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4DB312032B8210220015B241 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4DB3120C2B8210290015B241 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DB3120D2B8210290015B241 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DB312142B8211080015B241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DCF87B72B836143003FA180 /* InventoryList */ = {
+			isa = PBXGroup;
+			children = (
+				4DCF87B82B83614F003FA180 /* InventoryListView.swift */,
+			);
+			path = InventoryList;
+			sourceTree = "<group>";
+		};
+		4DD21FE22B821C7400891FEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FED2B821FF100891FEA /* Util */,
+				4DD21FEA2B821F0B00891FEA /* VM */,
+				4DD21FE62B821E2600891FEA /* Models */,
+				4DD21FE32B821C8900891FEA /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4DD21FE62B821E2600891FEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FE72B821E2D00891FEA /* InventoryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DD21FEA2B821F0B00891FEA /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FEB2B821F1000891FEA /* InventoryListVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		4DD21FED2B821FF100891FEA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FEE2B821FF500891FEA /* String+Ext.swift */,
+				4D846D2A2B83A44F00F735F6 /* URL+Ext.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4DD21FF02B82202C00891FEA /* InventoryList */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FF42B82204300891FEA /* InventoryListView.swift */,
+			);
+			path = InventoryList;
+			sourceTree = "<group>";
+		};
+		4DD21FF82B82298D00891FEA /* InventoryForm */ = {
+			isa = PBXGroup;
+			children = (
+				4DD21FF62B82296100891FEA /* InventoryFormView.swift */,
+				4DD21FF92B8229A100891FEA /* InventoryFormVM.swift */,
+			);
+			path = InventoryForm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB311EA2B820FA80015B241 /* InventoryTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB311F92B820FAA0015B241 /* Build configuration list for PBXNativeTarget "InventoryTracker" */;
+			buildPhases = (
+				4DB311E72B820FA80015B241 /* Sources */,
+				4DB311E82B820FA80015B241 /* Frameworks */,
+				4DB311E92B820FA80015B241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventoryTracker;
+			packageProductDependencies = (
+				4DB312152B8211080015B241 /* FirebaseFirestore */,
+				4DB312172B8211120015B241 /* FirebaseFirestoreSwift */,
+				4DB312192B8211160015B241 /* FirebaseStorage */,
+			);
+			productName = InventoryTracker;
+			productReference = 4DB311EB2B820FA80015B241 /* InventoryTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DB311FF2B8210210015B241 /* InventoryTrackerVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB312102B8210290015B241 /* Build configuration list for PBXNativeTarget "InventoryTrackerVision" */;
+			buildPhases = (
+				4DB311FC2B8210210015B241 /* Sources */,
+				4DB311FD2B8210210015B241 /* Frameworks */,
+				4DB311FE2B8210210015B241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventoryTrackerVision;
+			packageProductDependencies = (
+				4DB312042B8210220015B241 /* RealityKitContent */,
+				4DB3121B2B8211290015B241 /* FirebaseFirestore */,
+				4DB3121D2B8211290015B241 /* FirebaseFirestoreSwift */,
+				4DB3121F2B82112E0015B241 /* FirebaseStorage */,
+			);
+			productName = InventoryTrackerVision;
+			productReference = 4DB312002B8210210015B241 /* InventoryTrackerVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB311E32B820FA80015B241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4DB311EA2B820FA80015B241 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4DB311FF2B8210210015B241 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4DB311E62B820FA80015B241 /* Build configuration list for PBXProject "InventoryTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB311E22B820FA80015B241;
+			packageReferences = (
+				4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 4DB311EC2B820FA80015B241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB311EA2B820FA80015B241 /* InventoryTracker */,
+				4DB311FF2B8210210015B241 /* InventoryTrackerVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB311E92B820FA80015B241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB311F62B820FAA0015B241 /* Preview Assets.xcassets in Resources */,
+				4DB311F32B820FAA0015B241 /* Assets.xcassets in Resources */,
+				4DB312222B8214720015B241 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB311FE2B8210210015B241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB312242B82147C0015B241 /* GoogleService-Info.plist in Resources */,
+				4DB3120E2B8210290015B241 /* Preview Assets.xcassets in Resources */,
+				4DB3120B2B8210290015B241 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB311E72B820FA80015B241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD21FEF2B821FF500891FEA /* String+Ext.swift in Sources */,
+				4DD21FE42B821C8900891FEA /* AppDelegate.swift in Sources */,
+				4DD21FFA2B8229A100891FEA /* InventoryFormVM.swift in Sources */,
+				4DB311EF2B820FA80015B241 /* InventoryTrackerApp.swift in Sources */,
+				4DD21FEC2B821F1000891FEA /* InventoryListVM.swift in Sources */,
+				4D846D2E2B83A51100F735F6 /* USDZItemProvider.swift in Sources */,
+				4DD21FE82B821E2D00891FEA /* InventoryItem.swift in Sources */,
+				4DD21FF52B82204300891FEA /* InventoryListView.swift in Sources */,
+				4D846D2B2B83A44F00F735F6 /* URL+Ext.swift in Sources */,
+				4DD21FF72B82296100891FEA /* InventoryFormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB311FC2B8210210015B241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D846D282B83A2A500F735F6 /* InventoryItemVM.swift in Sources */,
+				4D846D292B83A2A500F735F6 /* InventoryItemView.swift in Sources */,
+				4DD21FE52B821C9400891FEA /* AppDelegate.swift in Sources */,
+				4DCF87B92B83614F003FA180 /* InventoryListView.swift in Sources */,
+				4DB312072B8210220015B241 /* InventoryTrackerVisionApp.swift in Sources */,
+				4DD21FF32B82203B00891FEA /* String+Ext.swift in Sources */,
+				4DD21FE92B821E3100891FEA /* InventoryItem.swift in Sources */,
+				4D846D2F2B83A51100F735F6 /* USDZItemProvider.swift in Sources */,
+				4D846D2C2B83A44F00F735F6 /* URL+Ext.swift in Sources */,
+				4D5A17B22B839A45005EB091 /* InventoryListVM.swift in Sources */,
+				4D5A17BB2B83A146005EB091 /* NavigationVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DB311F72B820FAA0015B241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DB311F82B820FAA0015B241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB311FA2B820FAA0015B241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InventoryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestswlkh0310.InventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB311FB2B820FAA0015B241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InventoryTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestswlkh0310.InventoryTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DB312112B8210290015B241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestswlkh0310.InventoryTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		4DB312122B8210290015B241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InventoryTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = B42SPPS3PR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestswlkh0310.InventoryTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB311E62B820FA80015B241 /* Build configuration list for PBXProject "InventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB311F72B820FAA0015B241 /* Debug */,
+				4DB311F82B820FAA0015B241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB311F92B820FAA0015B241 /* Build configuration list for PBXNativeTarget "InventoryTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB311FA2B820FAA0015B241 /* Debug */,
+				4DB311FB2B820FAA0015B241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB312102B8210290015B241 /* Build configuration list for PBXNativeTarget "InventoryTrackerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB312112B8210290015B241 /* Debug */,
+				4DB312122B8210290015B241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DB312042B8210220015B241 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		4DB312152B8211080015B241 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4DB312172B8211120015B241 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		4DB312192B8211160015B241 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4DB3121B2B8211290015B241 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4DB3121D2B8211290015B241 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		4DB3121F2B82112E0015B241 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DB312132B8210DB0015B241 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DB311E32B820FA80015B241 /* Project object */;
+}
